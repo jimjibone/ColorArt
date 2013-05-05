@@ -8,6 +8,7 @@
 
 #import "UIImage+ColorArt.h"
 #import "UIImage+Scale.h"
+
 @implementation UIImage (ColorArt)
 
 - (SLColorArt *)colorArt:(CGSize)scale{

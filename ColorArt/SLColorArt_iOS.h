@@ -17,6 +17,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+
 @interface SLColorArt : NSObject
 @property(strong, nonatomic, readonly) UIColor *backgroundColor;
 @property(strong, nonatomic, readonly) UIColor *primaryColor;
