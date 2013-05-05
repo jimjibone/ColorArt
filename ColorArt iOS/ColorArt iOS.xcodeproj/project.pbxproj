@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D1A899A91735CD24004A03D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A899A81735CD24004A03D8 /* UIKit.framework */; };
+		D1A899AB1735CD24004A03D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A899AA1735CD24004A03D8 /* Foundation.framework */; };
+		D1A899AD1735CD24004A03D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A899AC1735CD24004A03D8 /* CoreGraphics.framework */; };
+		D1A899B31735CD24004A03D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1A899B11735CD24004A03D8 /* InfoPlist.strings */; };
+		D1A899B51735CD24004A03D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A899B41735CD24004A03D8 /* main.m */; };
+		D1A899B91735CD24004A03D8 /* JRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A899B81735CD24004A03D8 /* JRAppDelegate.m */; };
+		D1A899BB1735CD24004A03D8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A899BA1735CD24004A03D8 /* Default.png */; };
+		D1A899BD1735CD24004A03D8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A899BC1735CD24004A03D8 /* Default@2x.png */; };
+		D1A899BF1735CD24004A03D8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1A899BE1735CD24004A03D8 /* Default-568h@2x.png */; };
+		D1A899C21735CD24004A03D8 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1A899C01735CD24004A03D8 /* MainStoryboard_iPhone.storyboard */; };
+		D1A899C81735CD24004A03D8 /* JRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A899C71735CD24004A03D8 /* JRViewController.m */; };
+		D1A899D71735CD45004A03D8 /* PCFadedImageView_iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A899D01735CD45004A03D8 /* PCFadedImageView_iOS.m */; };
+		D1A899D81735CD45004A03D8 /* SLColorArt_iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A899D21735CD45004A03D8 /* SLColorArt_iOS.m */; };
+		D1A899D91735CD45004A03D8 /* UIImage+ColorArt.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A899D41735CD45004A03D8 /* UIImage+ColorArt.m */; };
+		D1A899DA1735CD45004A03D8 /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A899D61735CD45004A03D8 /* UIImage+Scale.m */; };
+		D1A899E01735D0D5004A03D8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A899DF1735D0D5004A03D8 /* QuartzCore.framework */; };
+		D1A899E21735D22B004A03D8 /* 2012.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D1A899E11735D22B004A03D8 /* 2012.jpeg */; };
+		D1A899E41735D236004A03D8 /* 2013.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D1A899E31735D236004A03D8 /* 2013.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D1A899A51735CD24004A03D8 /* ColorArt iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ColorArt iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1A899A81735CD24004A03D8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D1A899AA1735CD24004A03D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D1A899AC1735CD24004A03D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D1A899B01735CD24004A03D8 /* ColorArt iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorArt iOS-Info.plist"; sourceTree = "<group>"; };
+		D1A899B21735CD24004A03D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D1A899B41735CD24004A03D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1A899B61735CD24004A03D8 /* ColorArt iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorArt iOS-Prefix.pch"; sourceTree = "<group>"; };
+		D1A899B71735CD24004A03D8 /* JRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRAppDelegate.h; sourceTree = "<group>"; };
+		D1A899B81735CD24004A03D8 /* JRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRAppDelegate.m; sourceTree = "<group>"; };
+		D1A899BA1735CD24004A03D8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D1A899BC1735CD24004A03D8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D1A899BE1735CD24004A03D8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D1A899C11735CD24004A03D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		D1A899C61735CD24004A03D8 /* JRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JRViewController.h; sourceTree = "<group>"; };
+		D1A899C71735CD24004A03D8 /* JRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JRViewController.m; sourceTree = "<group>"; };
+		D1A899CF1735CD45004A03D8 /* PCFadedImageView_iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PCFadedImageView_iOS.h; path = ../ColorArt/PCFadedImageView_iOS.h; sourceTree = "<group>"; };
+		D1A899D01735CD45004A03D8 /* PCFadedImageView_iOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PCFadedImageView_iOS.m; path = ../ColorArt/PCFadedImageView_iOS.m; sourceTree = "<group>"; };
+		D1A899D11735CD45004A03D8 /* SLColorArt_iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SLColorArt_iOS.h; path = ../ColorArt/SLColorArt_iOS.h; sourceTree = "<group>"; };
+		D1A899D21735CD45004A03D8 /* SLColorArt_iOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SLColorArt_iOS.m; path = ../ColorArt/SLColorArt_iOS.m; sourceTree = "<group>"; };
+		D1A899D31735CD45004A03D8 /* UIImage+ColorArt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+ColorArt.h"; path = "../ColorArt/UIImage+ColorArt.h"; sourceTree = "<group>"; };
+		D1A899D41735CD45004A03D8 /* UIImage+ColorArt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ColorArt.m"; path = "../ColorArt/UIImage+ColorArt.m"; sourceTree = "<group>"; };
+		D1A899D51735CD45004A03D8 /* UIImage+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Scale.h"; path = "../ColorArt/UIImage+Scale.h"; sourceTree = "<group>"; };
+		D1A899D61735CD45004A03D8 /* UIImage+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Scale.m"; path = "../ColorArt/UIImage+Scale.m"; sourceTree = "<group>"; };
+		D1A899DF1735D0D5004A03D8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D1A899E11735D22B004A03D8 /* 2012.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2012.jpeg; sourceTree = "<group>"; };
+		D1A899E31735D236004A03D8 /* 2013.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2013.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1A899A21735CD24004A03D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A899E01735D0D5004A03D8 /* QuartzCore.framework in Frameworks */,
+				D1A899A91735CD24004A03D8 /* UIKit.framework in Frameworks */,
+				D1A899AB1735CD24004A03D8 /* Foundation.framework in Frameworks */,
+				D1A899AD1735CD24004A03D8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1A8999C1735CD24004A03D8 = {
+			isa = PBXGroup;
+			children = (
+				D1A899CE1735CD35004A03D8 /* ColorArt */,
+				D1A899AE1735CD24004A03D8 /* ColorArt iOS */,
+				D1A899A71735CD24004A03D8 /* Frameworks */,
+				D1A899A61735CD24004A03D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1A899A61735CD24004A03D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1A899A51735CD24004A03D8 /* ColorArt iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1A899A71735CD24004A03D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1A899A81735CD24004A03D8 /* UIKit.framework */,
+				D1A899AA1735CD24004A03D8 /* Foundation.framework */,
+				D1A899AC1735CD24004A03D8 /* CoreGraphics.framework */,
+				D1A899DF1735D0D5004A03D8 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1A899AE1735CD24004A03D8 /* ColorArt iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D1A899E11735D22B004A03D8 /* 2012.jpeg */,
+				D1A899E31735D236004A03D8 /* 2013.jpeg */,
+				D1A899B71735CD24004A03D8 /* JRAppDelegate.h */,
+				D1A899B81735CD24004A03D8 /* JRAppDelegate.m */,
+				D1A899C01735CD24004A03D8 /* MainStoryboard_iPhone.storyboard */,
+				D1A899C61735CD24004A03D8 /* JRViewController.h */,
+				D1A899C71735CD24004A03D8 /* JRViewController.m */,
+				D1A899AF1735CD24004A03D8 /* Supporting Files */,
+			);
+			path = "ColorArt iOS";
+			sourceTree = "<group>";
+		};
+		D1A899AF1735CD24004A03D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1A899B01735CD24004A03D8 /* ColorArt iOS-Info.plist */,
+				D1A899B11735CD24004A03D8 /* InfoPlist.strings */,
+				D1A899B41735CD24004A03D8 /* main.m */,
+				D1A899B61735CD24004A03D8 /* ColorArt iOS-Prefix.pch */,
+				D1A899BA1735CD24004A03D8 /* Default.png */,
+				D1A899BC1735CD24004A03D8 /* Default@2x.png */,
+				D1A899BE1735CD24004A03D8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1A899CE1735CD35004A03D8 /* ColorArt */ = {
+			isa = PBXGroup;
+			children = (
+				D1A899CF1735CD45004A03D8 /* PCFadedImageView_iOS.h */,
+				D1A899D01735CD45004A03D8 /* PCFadedImageView_iOS.m */,
+				D1A899D11735CD45004A03D8 /* SLColorArt_iOS.h */,
+				D1A899D21735CD45004A03D8 /* SLColorArt_iOS.m */,
+				D1A899D31735CD45004A03D8 /* UIImage+ColorArt.h */,
+				D1A899D41735CD45004A03D8 /* UIImage+ColorArt.m */,
+				D1A899D51735CD45004A03D8 /* UIImage+Scale.h */,
+				D1A899D61735CD45004A03D8 /* UIImage+Scale.m */,
+			);
+			name = ColorArt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1A899A41735CD24004A03D8 /* ColorArt iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1A899CB1735CD24004A03D8 /* Build configuration list for PBXNativeTarget "ColorArt iOS" */;
+			buildPhases = (
+				D1A899A11735CD24004A03D8 /* Sources */,
+				D1A899A21735CD24004A03D8 /* Frameworks */,
+				D1A899A31735CD24004A03D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ColorArt iOS";
+			productName = "ColorArt iOS";
+			productReference = D1A899A51735CD24004A03D8 /* ColorArt iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1A8999D1735CD24004A03D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JR;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "James Reuss";
+			};
+			buildConfigurationList = D1A899A01735CD24004A03D8 /* Build configuration list for PBXProject "ColorArt iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D1A8999C1735CD24004A03D8;
+			productRefGroup = D1A899A61735CD24004A03D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1A899A41735CD24004A03D8 /* ColorArt iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1A899A31735CD24004A03D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A899B31735CD24004A03D8 /* InfoPlist.strings in Resources */,
+				D1A899BB1735CD24004A03D8 /* Default.png in Resources */,
+				D1A899BD1735CD24004A03D8 /* Default@2x.png in Resources */,
+				D1A899BF1735CD24004A03D8 /* Default-568h@2x.png in Resources */,
+				D1A899C21735CD24004A03D8 /* MainStoryboard_iPhone.storyboard in Resources */,
+				D1A899E21735D22B004A03D8 /* 2012.jpeg in Resources */,
+				D1A899E41735D236004A03D8 /* 2013.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1A899A11735CD24004A03D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1A899B51735CD24004A03D8 /* main.m in Sources */,
+				D1A899B91735CD24004A03D8 /* JRAppDelegate.m in Sources */,
+				D1A899C81735CD24004A03D8 /* JRViewController.m in Sources */,
+				D1A899D71735CD45004A03D8 /* PCFadedImageView_iOS.m in Sources */,
+				D1A899D81735CD45004A03D8 /* SLColorArt_iOS.m in Sources */,
+				D1A899D91735CD45004A03D8 /* UIImage+ColorArt.m in Sources */,
+				D1A899DA1735CD45004A03D8 /* UIImage+Scale.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D1A899B11735CD24004A03D8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1A899B21735CD24004A03D8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D1A899C01735CD24004A03D8 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1A899C11735CD24004A03D8 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1A899C91735CD24004A03D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1A899CA1735CD24004A03D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1A899CC1735CD24004A03D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorArt iOS/ColorArt iOS-Prefix.pch";
+				INFOPLIST_FILE = "ColorArt iOS/ColorArt iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D1A899CD1735CD24004A03D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorArt iOS/ColorArt iOS-Prefix.pch";
+				INFOPLIST_FILE = "ColorArt iOS/ColorArt iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1A899A01735CD24004A03D8 /* Build configuration list for PBXProject "ColorArt iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A899C91735CD24004A03D8 /* Debug */,
+				D1A899CA1735CD24004A03D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1A899CB1735CD24004A03D8 /* Build configuration list for PBXNativeTarget "ColorArt iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1A899CC1735CD24004A03D8 /* Debug */,
+				D1A899CD1735CD24004A03D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1A8999D1735CD24004A03D8 /* Project object */;
+}

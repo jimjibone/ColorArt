@@ -1,11 +1,19 @@
+iTunes-like colour finding
+===
+
+Thanks to both Aaron Brethorst at Panic everyone can now have awesome colourful stuff anywhere! So I have merged the OS X (Panic) version and the iOS ([fleitz fork](https://github.com/fleitz/ColorArt)) to create this beast of a compilation.
+
+![Screenshot](screenshot_ios.png)
+![Screenshot](screenshot.png)
+
+If you're wondering why I've stuck the two together, well that's because I'm working on a project that has both Mac and iOS versions!
+
 So, what's the story?
 ===
 
 This morning, I saw a neat post on Panic's blog (http://www.panic.com/blog/2012/12/itunes-11-and-colors/) that showed an example of how to duplicate iTunes 11's cover art color matching algorithm. I thought it'd be worthwhile to make the code a bit more reusable, and...here we are!
 
 I  — Aaron Brethorst / http://www.cocoacontrols.com — have extracted all of the interesting code into a reusable class whose usage should be fairly self-explanatory. Let me know if you have any questions.
-
-![Screenshot](https://raw.github.com/aaronbrethorst/ColorArt/master/screenshot.png)
 
 License
 ===

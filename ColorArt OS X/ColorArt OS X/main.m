@@ -1,9 +1,9 @@
 //
 //  main.m
-//  ColorArt
+//  ColorArt OS X
 //
-//  Created by Wade Cosgrove on 11/30/12.
-//  Copyright (c) 2012 Wade Cosgrove. All rights reserved.
+//  Created by James Reuss on 04/05/2013.
+//  Copyright (c) 2013 James Reuss. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
