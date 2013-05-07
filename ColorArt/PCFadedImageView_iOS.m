@@ -66,12 +66,27 @@
 		gradient.frame = CGRectMake(0, 0, newFrame.size.width, newFrame.size.height);
 		gradient.colors = @[(id)[[UIColor clearColor] CGColor], (id)[[UIColor blackColor] CGColor]];
 		
-		gradient.startPoint = CGPointMake(0.01f, 0.0f);
-		gradient.endPoint   = CGPointMake(0.30f, 0.0f);
+		gradient.startPoint = CGPointMake(0.3, 0.0f);
+		gradient.endPoint   = CGPointMake(0.9, 0.0f);
 		
 		self.imageView.layer.mask = gradient;
 	}
 	
+}
+
+- (id)valueForUndefinedKey:(NSString *)key
+{
+    return [self.imageView valueForKey:key];
+}
+
+- (void)setValue:(id)value forKey:(NSString *)key
+{
+	NSLog(@"%@ %@ - key:%@   value:%@", NSStringFromClass([self class]), NSStringFromSelector(_cmd), key, value);
+}
+
+- (void)setValue:(id)value forUndefinedKey:(NSString *)key
+{
+    [self.imageView setValue:value forKey:key];
 }
 
 @end
